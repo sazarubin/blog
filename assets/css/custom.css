@@ -1,0 +1,47 @@
+body {
+    overflow: unset;
+    height: unset;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+h1.brand img {
+    object-fit: cover;
+}
+
+body.layout-reverse .container.content {
+    direction: unset;
+}
+
+.layout-reverse .container.content {
+    padding: 2rem;
+}
+
+@media (max-width: 48em) {
+    .layout-reverse .container.content {
+        padding: 1rem;
+    }
+
+    aside.sidebar {
+        order: 1
+    }
+}
+
+@media (min-width: 48rem) {
+    .content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.content {
+    max-width: unset;
+}
+
+.post {
+    margin-bottom: 0;
+}
+
+hr {
+    margin: 1rem 0;
+}

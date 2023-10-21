@@ -1,4 +1,10 @@
 baseURL: 'http://example.org/'
 languageCode: 'ru-ru'
 title: 'Blog'
-theme: 'PaperMod'
+theme: 'poison'
+
+params:
+  brand: 'Blog'
+  brand_image: 'https://www.magezinepublishing.com/equipment/images/equipment/D850-6542/large/Nikon-D850-iso10000-DSC_0300_1503513309.jpg'
+  layoutReverse: true
+  hideToc: true
