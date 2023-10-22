@@ -1,10 +1,22 @@
 baseURL: 'http://example.org/'
 languageCode: 'ru-ru'
-title: 'Blog'
+title: 'Блог'
 theme: 'poison'
 
 params:
-  brand: 'Blog'
+  brand: 'Блог'
   brand_image: 'https://www.magezinepublishing.com/equipment/images/equipment/D850-6542/large/Nikon-D850-iso10000-DSC_0300_1503513309.jpg'
   layoutReverse: true
   hideToc: true
+  math: false
+taxonomies:
+  series: series
+
+defaultContentLanguage: ru
+languages: 
+  ru:
+    languageCode: 'ru-RU'
+    languageName: 'Русский'
+  en:
+    languageCode: 'en'
+    languageName: 'English'
