@@ -1,7 +1,8 @@
 ---
-title: "Hello"
-date: 2023-09-10T12:47:38+06:00
+title: "Hello 2"
+date: 2023-09-10T12:48:38+06:00
 draft: false
+series: "abc"
 ---
 
 Hi!

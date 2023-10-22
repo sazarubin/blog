@@ -19,7 +19,7 @@ body.layout-reverse .container.content {
 
 @media (max-width: 48em) {
     .layout-reverse .container.content {
-        padding: 1rem;
+        padding: 0.5rem 1rem 1rem;
     }
 
     aside.sidebar {
@@ -50,18 +50,3 @@ ul.series>li {
     list-style-type: none;
 }
 
-/* playfair display */
-@font-face {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 900;
-    src: local(''),
-         url('/fonts/playfair-display-black.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('/fonts/playfair-display-black.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-.sidebar-about h1 {
-    font-weight:900;
-    font-size: 1.5em;
-    font-family: "Playfair Display", serif;
-}
