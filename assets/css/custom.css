@@ -21,10 +21,6 @@ body.layout-reverse .container.content {
     .layout-reverse .container.content {
         padding: 0.5rem 1rem 1rem;
     }
-
-    aside.sidebar {
-        order: 1
-    }
 }
 
 @media (min-width: 48rem) {
